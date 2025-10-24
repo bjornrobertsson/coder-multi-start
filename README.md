@@ -290,20 +290,6 @@ metadata {
 4. Push template and create workspace
 5. Monitor logs during child creation
 
-## Comparison to Other Solutions
-
-### vs. CLI Scripts (coder-multi-create.sh)
-- **Pro**: Terraform-native, no external scripts
-- **Con**: Sequential creation (slower), harder to customize per-child
-
-### vs. coderd Provider
-- **Pro**: Actually works (provider doesn't support workspaces)
-- **Con**: N/A (provider approach isn't viable)
-
-### vs. Manual UI Clicking
-- **Pro**: Automated, consistent, repeatable
-- **Con**: Slightly longer startup time for primary workspace
-
 ## References
 
 - [Coder Login Module](https://registry.coder.com/modules/coder-login)
